@@ -104,20 +104,17 @@ h1 {
 }
 
 #narwhal-eye {
-  stroke-dasharray: 73px;
-  stroke-dashoffset: 73px;
+  opacity: 1;
   animation: eye 1s ease forwards;
 }
 
 @keyframes eye {
 
   0% {
-    stroke-dasharray: 73px;
-    stroke-dashoffset: 73px;
+    opacity: 0;
   }
 
   100% {
-    stroke-dasharray: 0;
-    stroke-dashoffset: 0;
+    opacity: 1;
   }
 }
