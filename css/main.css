@@ -1,0 +1,16 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+svg {
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  position: absolute;
+  top: 160px;
+  left: 65px;
+  z-index: 10;
+  max-width: 350px;
+}
