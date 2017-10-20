@@ -13,4 +13,59 @@ h1 {
   left: 65px;
   z-index: 10;
   max-width: 350px;
+  animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+
+  0% {
+    filter: blur(14px);
+    opacity: .4;
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+#rainbow-violet {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-indigo {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-blue {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-green {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-yellow {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-orange {
+  animation: rainbowing 1s ease forwards;
+}
+
+#rainbow-red {
+  animation: rainbowing 1s ease forwards;
+}
+
+@keyframes rainbowing {
+
+  0% {
+    stroke-dasharray: 11125px;
+    stroke-dashoffset: 11125px;
+  }
+
+  100% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
 }
